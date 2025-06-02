@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tablas HTML con CSS</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+
+  <h1>Ejemplos de Tablas HTML con CSS</h1>
+
+  <!-- Tabla 1: Bordes simples -->
+  <h2>Tabla 1: Bordes simples</h2>
+  <table class="tabla1">
+    <thead>
+      <tr><th>Producto</th><th>Precio</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Pan</td><td>$1.000</td></tr>
+      <tr><td>Leche</td><td>$2.500</td></tr>
+    </tbody>
+  </table>
+
+  <!-- Tabla 2: Zebra striping -->
+  <h2>Tabla 2: Zebra striping</h2>
+  <table class="tabla2">
+    <thead>
+      <tr><th>Curso</th><th>Instructor</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>HTML</td><td>Ana</td></tr>
+      <tr><td>CSS</td><td>Pedro</td></tr>
+    </tbody>
+  </table>
+
+  <!-- Tabla 3: Bordes redondeados -->
+  <h2>Tabla 3: Bordes redondeados</h2>
+  <table class="tabla3">
+    <thead>
+      <tr><th>Nombre</th><th>Edad</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Juan</td><td>22</td></tr>
+      <tr><td>Laura</td><td>20</td></tr>
+      <tr><td>Carlos</td><td>23</td></tr>
+    </tbody>
+  </table>
+
+  <!-- Tabla 4: Box shadow -->
+  <h2>Tabla 4: Box shadow</h2>
+  <table class="tabla4">
+    <thead>
+      <tr><th>Día</th><th>Actividad</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Lunes</td><td>Clases</td></tr>
+      <tr><td>Martes</td><td>Ejercicio</td></tr>
+    </tbody>
+  </table>
+
+  <!-- Tabla 5: Rowspan -->
+  <h2>Tabla 5: Rowspan</h2>
+  <table class="tabla5">
+    <thead>
+      <tr><th>Producto</th><th>Cantidad</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">Papelería</td>
+        <td>Lapiceros (50)</td>
+      </tr>
+      <tr>
+        <td>Cuadernos (30)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Tabla 6: Colspan -->
+  <h2>Tabla 6: Colspan</h2>
+  <table class="tabla6">
+    <thead>
+      <tr><th colspan="2">Información de contacto</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Nombre</td><td>Correo</td></tr>
+      <tr><td>Ana</td><td>ana@email.com</td></tr>
+      <tr><td>Juan</td><td>juan@email.com</td></tr>
+    </tbody>
+  </table>
+
+  <!-- Tabla 7: Alineación de texto y hover -->
+  <h2>Tabla 7: Alineación de texto y hover</h2>
+  <table class="tabla7">
+    <thead>
+      <tr><th class="left">Equipo</th><th class="center">Posición</th><th class="right">Puntos</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="left">Colombia</td>
+        <td class="center">1</td>
+        <td class="right">30</td>
+      </tr>
+      <tr>
+        <td class="left">Brasil</td>
+        <td class="center">2</td>
+        <td class="right">28</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Tabla 8: Fuente personalizada -->
+  <h2>Tabla 8: Fuente monoespaciada</h2>
+  <table class="tabla8">
+    <thead>
+      <tr><th>Código</th><th>Descripción</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>001</td><td>Inicio del sistema</td></tr>
+      <tr><td>002</td><td>Error de conexión</td></tr>
+    </tbody>
+  </table>
+
+  <!-- Tabla 9: Uso de tfoot y borde doble -->
+  <h2>Tabla 9: Uso de tfoot y borde doble</h2>
+  <table class="tabla9">
+    <thead>
+      <tr><th>Asignatura</th><th>Créditos</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Matemáticas</td><td>3</td></tr>
+      <tr><td>Lenguaje</td><td>2</td></tr>
+    </tbody>
+    <tfoot>
+      <tr><td>Total</td><td>5</td></tr>
+    </tfoot>
+  </table>
+
+  <!-- Tabla 10: Estilo completo -->
+  <h2>Tabla 10: Estilo completo</h2>
+  <table class="tabla10">
+    <thead>
+      <tr><th>Nombre</th><th>Estado</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Servidor 1</td><td>Activo</td></tr>
+      <tr><td>Servidor 2</td><td>Inactivo</td></tr>
+    </tbody>
+    <tfoot>
+      <tr><td>Total servidores</td><td>2</td></tr>
+    </tfoot>
+  </table>
+
+</body>
+</html>
